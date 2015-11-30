@@ -1,0 +1,86 @@
+#view-box {
+    margin-top: 1em;
+    height: 40em;
+    width: 100%;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+#header-inline {
+    position: relative;
+}
+
+#social {
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
+#projects-container {
+    margin: 0px;
+    height: 20em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#project-one, #project-two, #project-three {
+    height: 16em;
+    width: 16em;
+    border: solid 1px black;
+    display: inline-block;
+    margin: 2em;
+    border-radius: 5px;
+    /*margin-top: 20em;*/
+    display: flex;
+    position: static;
+    box-shadow: 2px 2px 2px black;
+}
+
+#project-one {
+
+}
+
+#project-two {
+
+}
+
+#project-three {
+
+}
+
+#image_wrapper {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.project {
+    width: auto;
+    height: 100%;
+    margin-left: -1em;
+}
+
+.project_description {
+    margin-top: 40em;
+    /*color: white;*/
+    z-index: 2;
+    position: absolute;
+}
+
+#fluent-lang {
+    position:relative;
+    float: left;
+}
+
+#experimental-lang {
+    position:relative;
+    float: right;
+}
+
+#puppy {
+    height: 173px;
+    width: 304px;
+    border: solid 2px black;
+    position: relative;
+}
