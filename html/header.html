@@ -1,5 +1,5 @@
 <div class='header-inline'>
-    <h1 class='logo'>Ike!</h1>
+    <h1 id='logo'>Ike!</h1>
 
     <div id='social'>
         <a href='https://www.facebook.com/gogreen37'><img src='/css/icons/facebook-grey.png'></a>
@@ -11,11 +11,9 @@
 
 <div class='main_menu'>
     <ul class='nav nav-tabs' role='tablist'>
-        <li role='presentation'> <a ui-sref='projects'>Projects </a></li>
-        <li role='presentation' > <a ui-sref='skills'>Skills </a></li>
-        <!-- <li role='presentation' > <a ui-sref='#'>Services </a></li> -->
-        <!-- <li role='presentation' > <a ui-sref='#'>Blog </a></li> -->
-        <li role='presentation' > <a ui-sref='contact'>Contact </a></li>
-        <li role='presentation' > <a ui-sref='about'>About </a></li>
+        <li ng-click='activeTab="projects"'  ng-class='{ active: activeTab=="projects"}' role='presentation'> <a ui-sref='projects'>Projects </a></li>
+        <li ng-click='activeTab="skills"' ng-class='{ active: activeTab=="skills"}' role='presentation' > <a ui-sref='skills'>Skills </a></li>
+        <li ng-click='activeTab="contact"' ng-class='{ active: activeTab=="contact"}' role='presentation' > <a ui-sref='contact'>Contact </a></li>
+        <li ng-click='activeTab="about"' ng-class='{ active: activeTab=="about"}' role='presentation' > <a ui-sref='about'>About </a></li>
     </ul>
 </div>

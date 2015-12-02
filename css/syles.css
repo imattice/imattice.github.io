@@ -1,86 +1,148 @@
-#view-box {
-    margin-top: 1em;
-    height: 40em;
-    width: 100%;
-    border: solid 2px black;
-    border-radius: 5px;
+body {
+    background-color: #474747;
 }
 
-#header-inline {
-    position: relative;
+a {
+    color: black;
 }
 
-#social {
-    position: relative;
-    display: inline-block;
-    float: right;
+a:hover {
+    color: #83B056;
 }
 
-#projects-container {
-    margin: 0px;
-    height: 20em;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#project-one, #project-two, #project-three {
-    height: 16em;
-    width: 16em;
-    border: solid 1px black;
-    display: inline-block;
-    margin: 2em;
-    border-radius: 5px;
-    /*margin-top: 20em;*/
-    display: flex;
-    position: static;
-    box-shadow: 2px 2px 2px black;
-}
+/*header*/
 
-#project-one {
+    #logo {
+        font-size: 5em;
+        font-weight: bold;
+        color: white;
+        text-shadow: 3px 2px 5px rgba(150, 150, 150, 1);
+    }
 
-}
+    #header-inline {
+        position: relative;
+    }
 
-#project-two {
+    #social {
+        position: relative;
+        display: inline-block;
+        float: right;
+    }
 
-}
+/*viewbox*/
 
-#project-three {
+    #view-box {
+        margin-top: 1em;
+        height: 40em;
+        width: 100%;
+        border: solid 3px #83B056;
+        border-radius: 5px;
+        background-color: #868A89;
+    }
 
-}
+    #view-box > * {
+        margin: 1%;
+    }
 
-#image_wrapper {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-}
+/*projects.html*/
 
-.project {
-    width: auto;
-    height: 100%;
-    margin-left: -1em;
-}
+    #projects-container {
+        margin: 0px;
+        margin-top: 3em;
+        height: 20em;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #project-one, #project-two, #project-three {
+        height: 24em;
+        width: 24em;
+        border: solid 1px black;
+        display: inline-block;
+        margin: 5em;
+        margin-top: auto;
+        border-radius: 5px;
+        /*margin-top: 20em;*/
+        display: flex;
+        position: static;
+        box-shadow: 2px 2px 2px black;
+        clear: both;
+    }
 
-.project_description {
-    margin-top: 40em;
-    /*color: white;*/
-    z-index: 2;
-    position: absolute;
-}
+    #project-one {
 
-#fluent-lang {
-    position:relative;
-    float: left;
-}
+    }
 
-#experimental-lang {
-    position:relative;
-    float: right;
-}
+    #project-two {
 
-#puppy {
-    height: 173px;
-    width: 304px;
-    border: solid 2px black;
-    position: relative;
-}
+    }
+
+    #project-three {
+
+    }
+
+    #image_wrapper {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .project {
+        width: auto;
+        height: 100%;
+        margin-left: -1em;
+    }
+
+    .project_description {
+        /*margin-top: -3em;*/
+        /*color: white;*/
+        z-index: 2;
+        position: absolute;
+    }
+
+/*skills.html*/
+
+    #lang-container {
+        position:relative;
+        float: left;
+        /*width: 80%;
+        height: auto;*/
+        /*margin-left: 4em;
+        margin-right: 4em;*/
+        /*margin: 0 auto;*/
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
+    .lang_icon {
+        height: 15em;
+        width: auto;
+        margin: 1%;
+        border: dashed 1px black;
+        padding: .5%;
+    }
+
+/*about.html*/
+
+    #puppy {
+        height: 173px;
+        width: 304px;
+        border: solid 2px black;
+        position: relative;
+        margin-top: 8%;
+        margin-left: 35%;
+    }
+
+    #profile_pic {
+        position: static;
+        border: solid 2px black;
+        transform: rotate(7deg);
+        margin-left: 72%;
+        margin-top: -62%;
+    }
+
+    .about_me {
+        font-size: 20px;
+        width: 65%;
+    }

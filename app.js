@@ -18,7 +18,7 @@ ike.config(function($stateProvider, $urlRouterProvider) {
     }); //end projects state
 
     $stateProvider.state('skills', {
-        url:'/skills',
+        url:'skills',
         views: {
             'header': {
                 templateUrl:'html/header.html',
@@ -33,40 +33,8 @@ ike.config(function($stateProvider, $urlRouterProvider) {
         }
     }); //end skills state
 
-    // $stateProvider.state('services', {
-    //     url:'',
-    //     views: {
-    //         'header': {
-    //             templateUrl:'html/header.html',
-    //             // controller:'HeaderCtrl'
-    //         },
-    //         'services': {
-    //             templateUrl:'html/projects.html'
-    //         },
-    // 'footer': {
-    //     templateUrl:'html/footer.html'
-    // },
-    //     }
-    // }); //end projects state
-    //
-    // $stateProvider.state('blog', {
-    //     url:'',
-    //     views: {
-    //         'header': {
-    //             templateUrl:'html/header.html',
-    //             // controller:'HeaderCtrl'
-    //         },
-    //         'blog': {
-    //             templateUrl:'html/projects.html'
-    //         },
-    // 'footer': {
-    //     templateUrl:'html/footer.html'
-    // },
-    //     }
-    // }); //end projects state
-
     $stateProvider.state('contact', {
-        url:'/contact',
+        url:'contact',
         views: {
             'header': {
                 templateUrl:'html/header.html',
@@ -82,7 +50,7 @@ ike.config(function($stateProvider, $urlRouterProvider) {
     }); //end contact state
 
     $stateProvider.state('about', {
-        url:'/about',
+        url:'about',
         views: {
             'header': {
                 templateUrl:'html/header.html',

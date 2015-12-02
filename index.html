@@ -5,12 +5,11 @@
 
         <title>Ike!</title>
 
-        <script src='lib/angular.js'></script>
-        <script src='lib/angular-ui-router.js'></script>
-        <script src='lib/jquery-2.1.4.js'></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-        <script src='js/scripts.js'></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js'></script>
+        <script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
         <script src='app.js'></script>
+        <script src='js/scripts.js'></script>
 
         <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
         <link rel='stylesheet' href='css/syles.css'>
@@ -19,11 +18,9 @@
     <body>
         <div class='container'>
             <div ui-view='header'></div>
-            <div id='view-box' class='container'>
+            <div id='view-box'>
                 <div ui-view='projects'></div>
                 <div id='skills-container' ui-view='skills'></div>
-                <!-- <div id='blog-container' ui-view='blog'></div>
-                <div id='services-container' ui-view='services'></div> -->
                 <div id='contact-container' ui-view='contact'></div>
                 <div id='about-container' ui-view='about'></div>
             </div>

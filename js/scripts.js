@@ -1,7 +1,5 @@
-$(document).ready(function() {
+ike.controller('tabz', ['$scope', function($scope){
 
-    $('.nav a').click(function(e) {
-        e.preventDefault()
-        $(this).addClass('.active')
-    });
-});
+    $scope.activeTab='projects'
+
+}])
