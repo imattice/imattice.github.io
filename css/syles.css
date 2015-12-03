@@ -33,7 +33,7 @@ a:hover {
 
     #view-box {
         margin-top: 1em;
-        height: 40em;
+        height: 45em;
         width: 100%;
         border: solid 3px #83B056;
         border-radius: 5px;
@@ -123,6 +123,11 @@ a:hover {
         padding: .5%;
     }
 
+/*contact*/
+    #contact {
+        font-size: 18px;
+    }
+
 /*about.html*/
 
     #puppy {
@@ -130,7 +135,7 @@ a:hover {
         width: 304px;
         border: solid 2px black;
         position: relative;
-        margin-top: 8%;
+        margin-top: 4%;
         margin-left: 35%;
     }
 
@@ -139,7 +144,7 @@ a:hover {
         border: solid 2px black;
         transform: rotate(7deg);
         margin-left: 72%;
-        margin-top: -62%;
+        margin-top: -64%;
     }
 
     .about_me {
