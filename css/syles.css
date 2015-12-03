@@ -146,3 +146,10 @@ a:hover {
         font-size: 20px;
         width: 65%;
     }
+
+
+/*footer*/
+    #copyright {
+        font-size: 12px;
+        color: #868A89;
+    }
