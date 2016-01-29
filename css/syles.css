@@ -2,6 +2,11 @@ body {
     background-color: #474747;
 }
 
+header, footer {
+    margin-left: 5vmin;
+    margin-right: 5vmin;
+}
+
 a {
     color: black;
 }
@@ -132,7 +137,9 @@ a:hover {
     }
 
 /*about.html*/
-
+.about-container{
+    display: flex;
+}
     #puppy {
         height: 173px;
         width: 304px;
@@ -143,11 +150,12 @@ a:hover {
     }
 
     #profile_pic {
-        position: static;
+        position: absolute;
+        top: 20vmin;
+        right: 12vmin;
         border: solid 2px black;
+        transform: scale(.7);
         transform: rotate(7deg);
-        margin-left: 72%;
-        margin-top: -64%;
     }
 
     .about_me {
