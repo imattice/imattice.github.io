@@ -1,56 +1,43 @@
-/*projects.html*/
+#projects-container {
+    margin: 0px;
+    margin-top: 3em;
+    height: 40vmin;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    #projects-container {
-        margin: 0px;
-        margin-top: 3em;
-        height: 40vmin;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #project-one, #project-two, #project-three {
+    #project-one, #project-two{
         height: 24em;
         width: 24em;
         border: solid 1px black;
         display: inline-block;
-        margin: 5em;
         margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
         border-radius: 5px;
-        /*margin-top: 20em;*/
-        display: flex;
-        position: static;
+        display: inline-flex;
         box-shadow: 2px 2px 2px black;
-        clear: both;
+
+        border: dashed 3px black;
+
+        #image_wrapper {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+
+            .project {
+                width: auto;
+                height: 100%;
+                margin-left: -1em;
+            }
+
+            .project_description {
+                /*margin-top: -3em;*/
+                /*color: white;*/
+                z-index: 2;
+                position: absolute;
+            }
+        }
     }
-
-    #project-one {
-
-    }
-
-    #project-two {
-
-    }
-
-    #project-three {
-
-    }
-
-    #image_wrapper {
-        height: 100%;
-        width: 100%;
-        overflow: hidden;
-    }
-
-    .project {
-        width: auto;
-        height: 100%;
-        margin-left: -1em;
-    }
-
-    .project_description {
-        /*margin-top: -3em;*/
-        /*color: white;*/
-        z-index: 2;
-        position: absolute;
-    }
+}
