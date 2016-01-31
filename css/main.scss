@@ -4,3 +4,40 @@
 @import "_skills.scss";
 @import "_contact.scss";
 @import "_about.scss";
+
+body {
+    background-color: #474747;
+}
+
+header, footer {
+    margin-left: 5vmin;
+    margin-right: 5vmin;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #83B056;
+}
+
+
+
+/*viewbox*/
+
+    #view-box {
+        display: flex;
+        margin-top: 1em;
+        height: 65vh;
+        width: 90vw;
+        border: solid 3px #83B056;
+        border-radius: 5px;
+        background-color: #868A89;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    #view-box > * {
+        margin: 1%;
+    }
