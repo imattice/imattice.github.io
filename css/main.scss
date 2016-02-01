@@ -28,7 +28,7 @@ body {
         margin-top: 1%;
         margin-left: 5vw;
         margin-right: 5vw;
-        justify-content: space-between;
+        // justify-content: space-between;
 
         //style
         height: 65vh;
@@ -37,5 +37,9 @@ body {
         border-radius: 5px;
         background-color: #868A89;
 
+
+        >* {
+            padding: 1%;
+        }
     }
 }
